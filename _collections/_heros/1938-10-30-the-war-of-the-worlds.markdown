@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EPFL's Bias Busters Untangle Movie Triumph: Navigating Award-Winning Trends via CMU Movie Summaries Corpus"
+title:  "EPFL's Bias Busters Untangle Movie Triumph"
 author: BiasBusters
 date:   2023-12-02 20:20:35 +0200
 image: http://cdn8.openculture.com/wp-content/uploads/2007/07/welleswar.jpg
