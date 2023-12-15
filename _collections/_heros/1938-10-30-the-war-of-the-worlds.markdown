@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EPFL's Bias Busters Untangle Movie Triumph"
+title:  "EPFL's BiasBusters Untangle Movie Triumph"
 author: BiasBusters
 date:   2023-12-02 20:20:35 +0200
 image: 'assets/images/oscar-hero-bw.jpg'
