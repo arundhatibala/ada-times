@@ -11,7 +11,6 @@ We know now that in the early years of the twentieth century this world was bein
 
 With infinite complacence people went to and fro over the earth about their little affairs, serene in the assurance of their dominion over this small spinning fragment of solar driftwood which by chance or design man has inherited out of the dark mystery of Time and Space.
 
-<!--more-->
 Yet across an immense ethereal gulf, minds that to our minds as ours are to the beasts in the jungle, intellects vast, cool and unsympathetic, regarded this earth with envious eyes and slowly and surely drew their plans against us. In the thirty-ninth year of the twentieth century came the great disillusionment.
 
 It was near the end of October. Business was better. The war scare was over. More men were back at work. Sales were picking up. On this particular evening, October 30, the Crosley service estimated that thirty-two million people were listening in on radios.
