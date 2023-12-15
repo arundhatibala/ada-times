@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The War of the Worlds"
-author: H. G. Wells
-date:   1938-10-30 20:20:35 +0200
+title:  "EPFL's Bias Busters Untangle Movie Triumph: Navigating Award-Winning Trends via CMU Movie Summaries Corpus"
+author: BiasBusters
+date:   2023-12-02 20:20:35 +0200
 image: http://cdn8.openculture.com/wp-content/uploads/2007/07/welleswar.jpg
 image_caption: The episode became famous for allegedly causing panic among its listening audience, though the scale of that panic is disputed, as the program had relatively few listeners.
 position: center
