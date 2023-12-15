@@ -13,10 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: And the Oscar goes to...
+title: ADA times
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  The Jury's Picks Unveiled: Inside Oscar, BAFTA, and Golden-Globe-Winning Films
+description: >- # this means to ignore newlines until "baseurl:" # The Jury's Picks Unveiled: Inside Oscar, BAFTA, and Golden-Globe-Winning Films
 baseurl: "/ada-times" # the subpath of your site, e.g. /blog
 url: "https://arundhatibala.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # google_analytics: 'UA-131540516-1' # Substitute this with your own GA key
