@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'English Times';
+  font-family: English Times;
   src: url('../englisht.ttf');
 }
 
@@ -15,13 +15,13 @@ a:hover {
 #masthead h1 {
   text-align: center;
   margin:.25em;
-  font-family: 'English Times', cursive;
+  font-family: English Times, cursive;
   font-size:80px
 }
 #masthead h3 {
   text-align: center;
   padding:.25em;
-  font-family: 'English Times', cursive;
+  font-family: English Times, cursive;
   font-size:25px;
   border-bottom: 1px dotted #ccc;
 }
