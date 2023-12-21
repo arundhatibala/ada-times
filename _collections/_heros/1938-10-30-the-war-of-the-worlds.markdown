@@ -10,7 +10,7 @@ position: center
 
 Acclaimed screenwriter Woody Allen famously said that “If my films don’t show a profit, I know I’m doing something right.” Contrasting the financial success stories of recent Marvel movies, Allen’s perspective prompts a fundamental question: are cultural and commercial successes inherently opposed in the movie industry, or is this merely artistic disillusionment? 
 
-<br><br><br>
+<br><br>
 
 ### Understanding our datasets 
 
@@ -24,7 +24,7 @@ For our analysis, we incorporate the following sources:
 
 Despite what most people think about genres, they may be ineffective in comparative multivariate analysis. In the CMU Movie Corpus dataset alone, there are 322 unique genre names, ranging from generic “Comedy” and “Drama” to hyper-specific “Beach Party Film” and “Kitchen Sink Realism” (what?). By limiting ourselves to the top 15 genres (based on label-count), we would preserve only 57.09% of the preprocessed CMU dataset, potentially discarding important variability in niche-genres. The solution: unsupervised community detection in a genre-network.
 
-<br><br><br>
+<br><br>
 
 ### Introducing Communities
 
@@ -34,4 +34,4 @@ Community detection in network analysis involves identifying groups of nodes or 
 A popular choice for community detection, the <strong>Louvain algorithm</strong>, is based on the idea of optimizing modularity. Modularity quantifies the quality of a community structure by comparing the number of edges within communities to the expected number of edges if the network were randomly connected. The algorithm aims to maximize modularity score, indicating a strong community structure. An advantage of the algorithm is that it finds appropriate non-overlapping communities without having to specify the number of communities in advance. 
 
 For our network, the algorithm detected five communities. But how does one interpret community 0 to 4?
-<br><br><br>
+<br><br>
