@@ -4,9 +4,17 @@ title:  "EPFL's BiasBusters Untangle Movie Triumph"
 author: BiasBusters
 date:   2023-12-02 20:20:35 +0200
 image: 'assets/images/oscar-hero-bw.jpg'
-image_caption: Through a meticulous analysis of over 40,000 plot summaries using state-of-the-art NLP techniques, the Bias Busters have dissected the very essence of plot characteristics that pave the way to cinematic triumph.
+image_caption: Through a meticulous analysis of over 40,000 plot summaries using state-of-the-art NLP techniques, the Bias Busters have dissected the very essence of plot characteristics that differentiate movies with critical acclaim, audience recognition, and commercial success.
 position: center
 ---
-### Understanding our datasets
+### Understanding our datasets 
+
+For our analysis, we incorporate the following sources:
+1. CMU Movie Corpus dataset with 40 000 plot summaries
+2. IMDb non-commercial dataset + 50.000 scraped movie reviews
+3. Historic awards data from Academy Awards, Golden Globe & BAFTA
+4. Budget and revenue numbers from Box Office Mojo
+5. Audience and critic review scores from Rotten Tomatoes
+
 
 Despite what most people think about genres, they may be ineffective in comparative multivariate analysis. In the CMU Movie Corpus dataset alone, there are 322 unique genre names, ranging from generic “Comedy” and “Drama” to hyper-specific “Beach Party Film” and “Kitchen Sink Realism” (what?). By limiting ourselves to the top 15 genres (based on label-count), we would preserve 57.09% of the preprocessed CMU dataset, potentially discarding important variability in niche-genres. The solution: unsupervised community detection in a genre-network.
