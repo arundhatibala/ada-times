@@ -2,7 +2,7 @@
 layout: post
 title:  "EPFL's BiasBusters Untangle Movie Triumph"
 author: BiasBusters
-date:   2023-12-02 20:20:35 +0200
+# date:   2023-12-02 20:20:35 +0200
 image: 'assets/images/oscar-hero-bw.jpg'
 image_caption: Through a meticulous analysis of over 40,000 plot summaries using state-of-the-art NLP techniques, the Bias Busters have dissected the very essence of plot characteristics that differentiate movies with critical acclaim, audience recognition, and commercial success.
 position: center
@@ -21,3 +21,12 @@ For our analysis, we incorporate the following sources:
 
 
 Despite what most people think about genres, they may be ineffective in comparative multivariate analysis. In the CMU Movie Corpus dataset alone, there are 322 unique genre names, ranging from generic “Comedy” and “Drama” to hyper-specific “Beach Party Film” and “Kitchen Sink Realism” (what?). By limiting ourselves to the top 15 genres (based on label-count), we would preserve only 57.09% of the preprocessed CMU dataset, potentially discarding important variability in niche-genres. The solution: unsupervised community detection in a genre-network.
+
+### Introducing Communities
+
+Community detection in network analysis involves identifying groups of nodes or entities within a network that are more densely connected to each other than to the rest of the network. To explore genre-genre-associations, we constructed an undirected, weighted network with unique CMU movie genres as nodes. Each edge signifies that the two nodes (genres) are appearing together at least once in the dataset, and their weights were obtained by counting the total number of pair-occurrences in the dataset.
+
+
+A popular choice for community detection, the <strong>Louvain algorithm<strong>, is based on the idea of optimizing modularity. Modularity quantifies the quality of a community structure by comparing the number of edges within communities to the expected number of edges if the network were randomly connected. The algorithm aims to maximize modularity score, indicating a strong community structure. An advantage of the algorithm is that it finds appropriate non-overlapping communities without having to specify the number of communities in advance. 
+
+For our network, the algorithm detected five communities. But how does one interpret community 0 to 4?
