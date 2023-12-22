@@ -5,8 +5,8 @@
 }
 .heroColumn {
   display: block;
-  width: 100%;
-  /* padding: 20%; */
+  width: 75%;
+  padding: 20%;
 }
 .heroColumn img {
   max-width: 100%;
