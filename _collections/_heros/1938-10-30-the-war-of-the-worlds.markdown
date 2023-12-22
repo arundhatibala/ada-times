@@ -26,6 +26,18 @@ Despite what most people think about genres, they may be ineffective in comparat
 
 <br><br>
 
+### Explaining our layers
+
+This datastory functions on the foundation of multivariate analysis. The three layers of analysis are critical acclaim, audience recognition, commercial success. 
+
+Critical acclaim delves into the qualitative evaluation of a movie's artistic merits, encompassing expert reviews and accolades. Audience recognition captures the pulse of public reception, including ratings, and reviews. 
+Meanwhile, the commercial success layer scrutinizes financial metrics like box office revenue and profitability.
+
+We believe this approach, that intertwined the three metrics, provides us with a comprehensive understanding of what makes a movie successful.
+
+Ultimately, we believe this multivariate approach could empower industry stakeholders to make informed decisions, guiding marketing strategies, audience targeting, and future project selections based on a holistic understanding of a movie's performance at the box office.
+<br><br>
+
 ### Introducing Communities
 
 Community detection in network analysis involves identifying groups of nodes or entities within a network that are more densely connected to each other than to the rest of the network. To explore genre-genre-associations, we constructed an undirected, weighted network with unique CMU movie genres as nodes. Each edge signifies that the two nodes (genres) are appearing together at least once in the dataset, and their weights were obtained by counting the total number of pair-occurrences in the dataset.
@@ -38,15 +50,9 @@ A popular choice for community detection, the <strong>Louvain algorithm</strong>
 ![Communities](images/communities.png)
 
 For our network, the algorithm detected five communities. But how does one interpret community 0 to 4?
+
+From the unsupervised, hierarchical clustering of the Louvain algorithm, we learnt a genre-community mapping without having to specify any hyperparameters. To interpret and label the communities, we observe the top 10 genres within each community (ranked on occurrence-count in the dataset). 
 <br><br>
 
-### Explaining our layers
 
-This datastory functions on the foundation of multivariate analysis. The three layers of analysis are critical acclaim, audience recognition, commercial success. 
 
-Critical acclaim delves into the qualitative evaluation of a movie's artistic merits, encompassing expert reviews and accolades. Audience recognition captures the pulse of public reception, including ratings, and reviews. 
-Meanwhile, the commercial success layer scrutinizes financial metrics like box office revenue and profitability.
-
-We believe this approach, that intertwined the three metrics, provides us with a comprehensive understanding of what makes a movie successful.
-
-Ultimately, we believe this multivariate approach could empower industry stakeholders to make informed decisions, guiding marketing strategies, audience targeting, and future project selections based on a holistic understanding of a movie's performance at the box office.
