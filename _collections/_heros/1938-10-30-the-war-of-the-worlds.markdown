@@ -39,3 +39,5 @@ A popular choice for community detection, the <strong>Louvain algorithm</strong>
 
 For our network, the algorithm detected five communities. But how does one interpret community 0 to 4?
 <br><br>
+
+### Analysing our Audience
