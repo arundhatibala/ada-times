@@ -4,6 +4,10 @@
 
 ![mediumish](assets/images/the-interesting-times.png)
 
+```{r, echo=FALSE}
+htmltools::includeHTML("fin-1.html")
+```
+
 
 ### Copyright
 
