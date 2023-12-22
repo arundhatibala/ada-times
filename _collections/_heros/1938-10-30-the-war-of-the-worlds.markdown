@@ -98,6 +98,11 @@ A standing ovation at Cannes is a dream of every filmmaker. Audience reception i
 
 In our initial analysis, we compare the average audience rating with the category of target audience. Our most surprising find? Movies that have elderly people as a target demographic <strong> on average have a higher rating<strong> than other audience demographics!
 
+![correlation](images/correlation.jpeg)
+
+When considering the sentiments of the reviews in our IMDB dataset, we see that movies with a historical or past setting also has higher positive correlation with average review scores.
+
+
 #### 
 
 ### Reaching critical mass
