@@ -56,3 +56,8 @@ From the unsupervised, hierarchical clustering of the Louvain algorithm, we lear
 ![Genres](images/genres.png)
 <br><br>
 
+### Time to put your Money where your Mouth is
+
+### Playing to the Gallery
+
+### Reaching critical mass
