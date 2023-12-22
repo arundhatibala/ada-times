@@ -30,7 +30,7 @@ Despite what most people think about genres, they may be ineffective in comparat
 
 Community detection in network analysis involves identifying groups of nodes or entities within a network that are more densely connected to each other than to the rest of the network. To explore genre-genre-associations, we constructed an undirected, weighted network with unique CMU movie genres as nodes. Each edge signifies that the two nodes (genres) are appearing together at least once in the dataset, and their weights were obtained by counting the total number of pair-occurrences in the dataset.
 
-![Network Communities]('images/network.png')
+![Network Communities](images/network.png)
 
 
 A popular choice for community detection, the <strong>Louvain algorithm</strong>, is based on the idea of optimizing modularity. Modularity quantifies the quality of a community structure by comparing the number of edges within communities to the expected number of edges if the network were randomly connected. The algorithm aims to maximize modularity score, indicating a strong community structure. An advantage of the algorithm is that it finds appropriate non-overlapping communities without having to specify the number of communities in advance. 
