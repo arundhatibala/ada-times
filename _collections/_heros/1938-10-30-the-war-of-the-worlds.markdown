@@ -175,6 +175,24 @@ Analysing this plot, we see:
 
 ### Reaching critical mass
 
+Finally, our critics are the ones' responsible for the red carpet reverie. These critics can make our break a movie, even when its well-received by the audience and a commerical success. For this metric, we used the RottenTomatoes TomatoMeter, which consists of ratings of movies assigned by movie critics, not the audience itself.
+
+The average score given by critics, known as the TomatoMeter score, is used here to gauge how positively movies were received.
+<div class="container">
+  <iframe class="responsive-iframe" src="average_critic_scores_with_variance.html"></iframe>
+</div>
+<br><br>
+
+Initially, we see higher scores on average, which may indicate that only the best-rated movies were reviewed or captured in the data during those early years. It could also reflect fewer movies being made or less complete data from that time.
+After 1990, there's a clear rise in the number of movies reviewed, with a greater spread in how critics rated them. This suggests a more varied and representative collection of movie ratings to analyze from this period onward.
+
+<div class="container">
+  <iframe class="responsive-iframe" src="average_tomato_scores_by_community.html"></iframe>
+</div>
+<br><br>
+
+To dive deeper into critical acclaim, it can be seen that movies with historical themes score highest among films released after the 1990s, likely due to their rich storytelling and production quality. This is similar to what we see in the audience recognition section as well. In contrast, horror films tend to have lower scores, possibly reflecting a tougher critic stance or the genre's niche appeal.
+
 ### Locations and Our Metrics
 
 <div class="container">
