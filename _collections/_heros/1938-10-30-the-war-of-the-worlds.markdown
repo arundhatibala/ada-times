@@ -58,6 +58,8 @@ From the unsupervised, hierarchical clustering of the Louvain algorithm, we lear
 
 ### Time to put your Money where your Mouth is
 <iframe src="revenue_word_length_visualization.html" width="800" height="600"></iframe>
+<iframe src="fig_bubble.html" width="800" height="600"></iframe>
+
 ### Playing to the Gallery
 
 ### Reaching critical mass
