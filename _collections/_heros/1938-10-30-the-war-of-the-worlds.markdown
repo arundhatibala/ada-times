@@ -21,8 +21,6 @@ For our analysis, we incorporate the following sources:
 4. Audience and critic review scores from Rotten Tomatoes
 
 
-Despite what most people think about genres, they may be ineffective in comparative multivariate analysis. In the CMU Movie Corpus dataset alone, there are 322 unique genre names, ranging from generic “Comedy” and “Drama” to hyper-specific “Beach Party Film” and “Kitchen Sink Realism” (what?). By limiting ourselves to the top 15 genres (based on label-count), we would preserve only 57.09% of the preprocessed CMU dataset, potentially discarding important variability in niche-genres. The solution: unsupervised community detection in a genre-network.
-
 <br><br>
 
 ### Explaining our layers
@@ -36,6 +34,8 @@ We believe this approach, that intertwined the three metrics, provides us with a
 
 Ultimately, we believe this multivariate approach could empower industry stakeholders to make informed decisions, guiding marketing strategies, audience targeting, and future project selections based on a holistic understanding of a movie's performance at the box office.
 <br><br>
+
+Despite what most people think about genres, they may be ineffective in comparative multivariate analysis. In the CMU Movie Corpus dataset alone, there are 322 unique genre names, ranging from generic “Comedy” and “Drama” to hyper-specific “Beach Party Film” and “Kitchen Sink Realism” (what?). By limiting ourselves to the top 15 genres (based on label-count), we would preserve only 57.09% of the preprocessed CMU dataset, potentially discarding important variability in niche-genres. The solution: unsupervised community detection in a genre-network.
 
 ### Introducing Communities
 <br><br>
