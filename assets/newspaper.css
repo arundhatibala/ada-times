@@ -4,11 +4,9 @@
   padding: 10px;
 }
 .heroColumn {
-  /* display: block; */
   margin: auto;
   width: 75%;
   padding: 10px;
-  /* padding: %; */
 }
 .heroColumn img {
   max-width: 100%;
