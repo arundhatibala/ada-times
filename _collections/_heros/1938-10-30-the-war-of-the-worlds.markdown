@@ -103,6 +103,6 @@ In our initial analysis, we compare the average audience rating with the categor
 When considering the sentiments of the reviews in our IMDB dataset, we see that movies with a historical or past setting also has higher positive correlation with average review scores.
 
 
-#### 
+<!-- ####  -->
 
 ### Reaching critical mass
