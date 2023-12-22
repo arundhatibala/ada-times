@@ -40,4 +40,13 @@ A popular choice for community detection, the <strong>Louvain algorithm</strong>
 For our network, the algorithm detected five communities. But how does one interpret community 0 to 4?
 <br><br>
 
-### So, what does the audience think?
+### Explaining our layers
+
+This datastory functions on the foundation of multivariate analysis. The three layers of analysis are critical acclaim, audience recognition, commercial success. 
+
+Critical acclaim delves into the qualitative evaluation of a movie's artistic merits, encompassing expert reviews and accolades. Audience recognition captures the pulse of public reception, including ratings, and reviews. 
+Meanwhile, the commercial success layer scrutinizes financial metrics like box office revenue and profitability.
+
+We believe this approach, that intertwined the three metrics, provides us with a comprehensive understanding of what makes a movie successful.
+
+Ultimately, we believe this multivariate approach could empower industry stakeholders to make informed decisions, guiding marketing strategies, audience targeting, and future project selections based on a holistic understanding of a movie's performance at the box office.
