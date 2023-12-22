@@ -64,6 +64,8 @@ We establish a connection between the dimensions in the data by creating scatter
 WGen we compare the budget and revenue, we see that higher investment in the production budget does not necessarily make the movie a commerical success.
 <iframe src="budget_revenue.html" width="800" height="600"></iframe>
 
+So, what could be the cause of this? Lately, if we dig deeper into the data, we see that movies of community 3 - 
+
 <iframe src="fig_bubble.html" width="800" height="600"></iframe>
 
 ### Playing to the Gallery
