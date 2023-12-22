@@ -1,6 +1,6 @@
 .sideHeroColumn {
-  /* float: left; */
-  width: 25%;
+  float: left;
+  width: 10%;
   padding: 10px;
 }
 .heroColumn {
