@@ -92,7 +92,16 @@ Movies from Everything Everywhere All at Once (not plotted) to Sister Act have s
 
 ### Playing to the Gallery
 
-To understand our plot summaries better, we used <code>gpt-3.5-turbo</code> to categorise the plot summaries into new metrics like mood and target demographic. After feeding in the plot summary, we asked the LLM which age group this movie would be most suited to and 
+To understand our plot summaries better, we used <code>gpt-3.5-turbo</code> to categorise the plot summaries into new metrics, which include:
+
+- Topic Identification: Categories like Romance, Adventure, Mystery, Comedy, etc.
+- Mood Identification: Options such as Exciting, Dark, Romantic, etc.
+- Target Audience Identification: Children, Teenagers, Adults, Families, Elderly.
+- Temporal Setting Identification: Past, Modern, Future.
+- Location Setting Identification: Real or Fictional.
+
+The choice of these features was a careful balance between granularity and dataset size, aiming to capture the most significant elements of movie plots. Analyzing movie plots using ChatGPT 3.5 for feature generation revealed its knack for handling hefty data tasks. We smoothly processed large datasets, extracting valuable features without breaking a sweat. 
+
 
 A standing ovation at Cannes is a dream of every filmmaker. Audience reception is perhaps one of the most important metrics in determining a movie's success. But are all audiences the same?
 
@@ -112,6 +121,8 @@ Aspect-based sentiment analysis is like zooming in on a painting to appreciate t
 ![aspect](images/aspect.jpeg)
 
 ![aspect](images/trajectory.png)
+
+
 
 <!-- ####  -->
 
