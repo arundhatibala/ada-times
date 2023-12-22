@@ -111,6 +111,7 @@ Aspect-based sentiment analysis is like zooming in on a painting to appreciate t
 
 ![aspect](images/aspect.jpeg)
 
+![aspect](images/trajectory.png)
 
 <!-- ####  -->
 
