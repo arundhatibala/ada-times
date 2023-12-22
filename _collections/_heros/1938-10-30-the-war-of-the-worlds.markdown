@@ -35,5 +35,7 @@ Community detection in network analysis involves identifying groups of nodes or 
 
 A popular choice for community detection, the <strong>Louvain algorithm</strong>, is based on the idea of optimizing modularity. Modularity quantifies the quality of a community structure by comparing the number of edges within communities to the expected number of edges if the network were randomly connected. The algorithm aims to maximize modularity score, indicating a strong community structure. An advantage of the algorithm is that it finds appropriate non-overlapping communities without having to specify the number of communities in advance. 
 
+![Communities](images/communities.png)
+
 For our network, the algorithm detected five communities. But how does one interpret community 0 to 4?
 <br><br>
