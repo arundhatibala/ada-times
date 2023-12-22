@@ -1,11 +1,11 @@
 .sideHeroColumn {
-  float: left;
+  /* float: left; */
   width: 25%;
   padding: 10px;
 }
 .heroColumn {
-  float: center;
-  width: 80%;
+  display: block;
+  width: 100%;
   padding: 5%;
 }
 .heroColumn img {
