@@ -144,7 +144,7 @@ In our initial analysis, we compare the average audience rating with the categor
 <br>
 <br>
 
-When considering the sentiments of the reviews in our IMDB dataset, we see that movies with a historical or past setting also has higher positive correlation with average review scores, and its statistically signficant!
+When considering the sentiments of the reviews in our IMDB dataset, we see that <strong>movies with a historical or past setting also has higher positive correlation with average review scores, and its statistically signficant!</strong>
 So next time you're watching a period piece or a WW2 movie, remember, you're only proving our point :)
 <br>
 
