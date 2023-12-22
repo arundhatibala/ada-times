@@ -158,3 +158,10 @@ Analysing this plot, we see:
 <!-- ####  -->
 
 ### Reaching critical mass
+
+### Locations and Our Metrics
+
+<div class="container">
+  <iframe class="responsive-iframe" src="final_map_revenue.html"></iframe>
+</div>
+<br><br>
