@@ -261,8 +261,8 @@
 			position:				relative;
 			margin:					auto;
 			width:					100%;
-			padding-left:			2%;
-			padding-right:			2%;
+			padding-left:			5%;
+			padding-right:			5%;
 			padding-top:			2em;
 			padding-bottom:			2em;
 			-webkit-column-count:	3;
@@ -294,8 +294,8 @@
 			position:				relative;
 			margin:					auto;
 			width:					100%;
-			padding-left:			2%;
-			padding-right:			2%;
+			padding-left:			10%;
+			padding-right:			10%;
 			padding-top:			2em;
 			padding-bottom:			2em;
 			-webkit-column-count:	3;
@@ -327,8 +327,8 @@
 			position:				relative;
 			margin:					auto;
 			width:					100%;
-			padding-left:			2%;
-			padding-right:			2%;
+			padding-left:			10%;
+			padding-right:			10%;
 			padding-top:			2em;
 			padding-bottom:			2em;
 			-webkit-column-count:	3;
@@ -360,8 +360,8 @@
 			position:				relative;
 			margin:					auto;
 			width:					100%;
-			padding-left:			2%;
-			padding-right:			2%;
+			padding-left:			10%;
+			padding-right:			10%;
 			padding-top:			2em;
 			padding-bottom:			2em;
 			-webkit-column-count:	3;
@@ -393,8 +393,8 @@
 			position:				relative;
 			margin:					auto;
 			width:					100%;
-			padding-left:			2%;
-			padding-right:			2%;
+			padding-left:			10%;
+			padding-right:			10%;
 			padding-top:			2em;
 			padding-bottom:			2em;
 			-webkit-column-count:	2;
@@ -426,8 +426,8 @@
 			position:				relative;
 			margin:					auto;
 			width:					100%;
-			padding-left:			2%;
-			padding-right:			2%;
+			padding-left:			10%;
+			padding-right:			10%;
 			padding-top:			2em;
 			padding-bottom:			2em;
 			-webkit-column-count:	2;
@@ -460,7 +460,7 @@
 		footer	{margin: 2% 2%;}
 		article {
 			position:				relative;
-			margin:					2% 2%;
+			margin:					10% 2%;
 			width:					100%;
 			padding:				0;
 			-webkit-column-count:	1;
@@ -483,7 +483,7 @@
 		footer	{margin: 2% 2%;}
 		article {
 			position:				relative;
-			margin:					2% 2%;
+			margin:					10% 2%;
 			width:					90%;
 			padding:				0;
 			-webkit-column-count:	1;
