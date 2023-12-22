@@ -91,6 +91,22 @@ We see that the budget stabilises over the years, inspite of inflation and overa
 So, what could be the cause of this? Lately, there has been wave of <strong>microbudgeting</strong>. Producers often fund indie films that don't require as much resources, but have a unique plot characteristic that makes them stand out in the crowd.
 Movies from Everything Everywhere All at Once (not plotted) to Sister Act have shown to investors that it doesn't take much to make a movie that's commercially successful.
 
+<div class="container">
+  <iframe class="responsive-iframe" src="revenue_distribution_by_target_audience.html"></iframe>
+</div>
+<br><br>
+
+Movies in the 'exciting' mood category have a median revenue of approximately 37 million, suggesting a strong box office performance for this type of film. The interquartile range of 12 million to 93 million indicates that while some films achieve outstanding financial success, there is variability in the revenue performance within this category. The presence of outliers above the upper whisker shows that some 'exciting' movies significantly outperform others in terms of revenue
+
+<div class="container">
+  <iframe class="responsive-iframe" src="revenue_heatmap_by_target_audience_and_mood.html"></iframe>
+</div>
+<br><br>
+
+In this graph, what we see is that films for families tend to be more review-generating. 
+
+Moreover, here is a clear indication that movies targeting teenagers tend to generate higher revenue on average, with 'exciting' and 'fantastical' moods standing out. This might reflect teenagers' preferences for genres such as action, adventure, or fantasy.
+
 <!-- #### Plot Characteristics -->
 <br><br>
 
