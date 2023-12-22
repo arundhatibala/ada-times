@@ -57,7 +57,9 @@ From the unsupervised, hierarchical clustering of the Louvain algorithm, we lear
 <br><br>
 
 ### Time to put your Money where your Mouth is
-
+```{r, echo=FALSE}
+htmltools::includeHTML("fin-1.html")
+```
 ### Playing to the Gallery
 
 ### Reaching critical mass
