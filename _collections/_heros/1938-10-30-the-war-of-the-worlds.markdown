@@ -82,7 +82,7 @@ If we apply a temporal axes, we can see how the budget changes for movies over t
 <br><br>
 
 <div class="container">
-  <iframe class="responsive-iframe" src="year_budget.html"></iframe>
+  <iframe class="responsive-iframe" src="year_budget2.html"></iframe>
 </div>
 <br><br>
 
