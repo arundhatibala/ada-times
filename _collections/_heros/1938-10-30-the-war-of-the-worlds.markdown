@@ -56,7 +56,7 @@ From the unsupervised, hierarchical clustering of the Louvain algorithm, we lear
 ![Genres](images/genres.png)
 <br><br>
 
-### Time to put your Money where your Mouth is
+### Put your Money where your Mouth is
 
 To understand the commercial success of a movie, we can choose between a variety of metrics, like Return-on-Investment (ROI), Box-Office Revenue and Budget of the movie. However, the best analyses are simple. 
 
@@ -85,6 +85,7 @@ So, what could be the cause of this? Lately, there has been wave of <strong>micr
 Movies from Everything Everywhere All at Once (not plotted) to Sister Act have shown to investors that it doesn't take much to make a movie that's commercially successful.
 
 <!-- #### Plot Characteristics -->
+<br><br>
 
 ### Playing to the Gallery
 
