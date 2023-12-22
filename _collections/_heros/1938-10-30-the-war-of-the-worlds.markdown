@@ -71,18 +71,27 @@ When we compare the budget and revenue, we see that higher investment in the pro
 Lighthearted movies are on average lower in budget but have a higher yield at the box office. We also see that that category contains the most expensive budgets.
 
 If we apply a temporal axes, we can see how the budget changes for movies over the years.
-
+<br>
 
 <div class="container">
   <iframe class="responsive-iframe" src="year_budget.html"></iframe>
 </div>
+<br>
 
 We see that the budget stabilises over the years, inspite of inflation and overall increase in production cost and the size of the team working on a single movie.
+<br>
+
 So, what could be the cause of this? Lately, there has been wave of <strong>microbudgeting</strong>. Producers often fund indie films that don't require as much resources, but have a unique plot characteristic that makes them stand out in the crowd.
 Movies from Everything Everywhere All at Once (not plotted) to Sister Act have shown to investors that it doesn't take much to make a movie that's commercially successful.
 
-<iframe src="fig_bubble.html" width="800" height="600"></iframe>
+<div class="container">
+  <iframe class="responsive-iframe" src="fig_bubble.html"></iframe>
+</div>
+
+#### Plot Characteristics
 
 ### Playing to the Gallery
+
+#### 
 
 ### Reaching critical mass
