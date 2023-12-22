@@ -17,9 +17,8 @@ Acclaimed screenwriter Woody Allen famously said that “If my films don’t sho
 For our analysis, we incorporate the following sources:
 1. CMU Movie Corpus dataset with 40 000 plot summaries
 2. IMDb non-commercial dataset + 50.000 scraped movie reviews
-3. Historic awards data from Academy Awards and Golden Globes
-4. Budget and revenue numbers from Box Office Mojo
-5. Audience and critic review scores from Rotten Tomatoes
+3. Budget and revenue numbers from Box Office Mojo
+4. Audience and critic review scores from Rotten Tomatoes
 
 
 Despite what most people think about genres, they may be ineffective in comparative multivariate analysis. In the CMU Movie Corpus dataset alone, there are 322 unique genre names, ranging from generic “Comedy” and “Drama” to hyper-specific “Beach Party Film” and “Kitchen Sink Realism” (what?). By limiting ourselves to the top 15 genres (based on label-count), we would preserve only 57.09% of the preprocessed CMU dataset, potentially discarding important variability in niche-genres. The solution: unsupervised community detection in a genre-network.
