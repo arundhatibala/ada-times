@@ -57,7 +57,13 @@ From the unsupervised, hierarchical clustering of the Louvain algorithm, we lear
 <br><br>
 
 ### Time to put your Money where your Mouth is
-<iframe src="revenue_word_length_visualization.html" width="800" height="600"></iframe>
+
+To understand the commercial success of a movie, we can choose between a variety of metrics, like Return-on-Investment (ROI), Box-Office Revenue and Budget of the movie. However, the best analyses are simple. 
+We establish a connection between the dimensions in the data by creating scatter plot. Of these, the two most interesting (in our opinion), are the following graphs.
+
+WGen we compare the budget and revenue, we see that higher investment in the production budget does not necessarily make the movie a commerical success.
+<iframe src="budget_revenue.html" width="800" height="600"></iframe>
+
 <iframe src="fig_bubble.html" width="800" height="600"></iframe>
 
 ### Playing to the Gallery
