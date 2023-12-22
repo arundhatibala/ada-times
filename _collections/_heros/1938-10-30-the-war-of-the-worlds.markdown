@@ -52,7 +52,7 @@ A popular choice for community detection, the <strong>Louvain algorithm</strong>
 For our network, the algorithm detected five communities. But how does one interpret community 0 to 4?
 
 From the unsupervised, hierarchical clustering of the Louvain algorithm, we learnt a genre-community mapping without having to specify any hyperparameters. To interpret and label the communities, we observe the top 10 genres within each community (ranked on occurrence-count in the dataset). 
+
+![Genres](images/genres.png)
 <br><br>
-
-
 
