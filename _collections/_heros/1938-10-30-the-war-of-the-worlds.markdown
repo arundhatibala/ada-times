@@ -84,43 +84,57 @@ We see that the budget stabilises over the years, inspite of inflation and overa
 So, what could be the cause of this? Lately, there has been wave of <strong>microbudgeting</strong>. Producers often fund indie films that don't require as much resources, but have a unique plot characteristic that makes them stand out in the crowd.
 Movies from Everything Everywhere All at Once (not plotted) to Sister Act have shown to investors that it doesn't take much to make a movie that's commercially successful.
 
-<div class="container">
-  <iframe class="responsive-iframe" src="fig_bubble.html"></iframe>
-</div>
-
 <!-- #### Plot Characteristics -->
 
 ### Playing to the Gallery
 
 To understand our plot summaries better, we used <code>gpt-3.5-turbo</code> to categorise the plot summaries into new metrics, which include:
+<br>
 
 - Topic Identification: Categories like Romance, Adventure, Mystery, Comedy, etc.
 - Mood Identification: Options such as Exciting, Dark, Romantic, etc.
 - Target Audience Identification: Children, Teenagers, Adults, Families, Elderly.
 - Temporal Setting Identification: Past, Modern, Future.
 - Location Setting Identification: Real or Fictional.
+<br>
 
 The choice of these features was a careful balance between granularity and dataset size, aiming to capture the most significant elements of movie plots. Analyzing movie plots using ChatGPT 3.5 for feature generation revealed its knack for handling hefty data tasks. We smoothly processed large datasets, extracting valuable features without breaking a sweat. 
 
+<br>
 
 A standing ovation at Cannes is a dream of every filmmaker. Audience reception is perhaps one of the most important metrics in determining a movie's success. But are all audiences the same?
+<br><br>
 
 ![boxplots](images/boxplots.jpg)
+<br>
+<br>
 
 In our initial analysis, we compare the average audience rating with the category of target audience. Our most surprising find? Movies that have elderly people as a target demographic <strong> on average have a higher rating<strong> than other audience demographics!
+<br>
+<br>
 
 ![correlation](images/correlation.jpeg)
+<br>
+<br>
 
 When considering the sentiments of the reviews in our IMDB dataset, we see that movies with a historical or past setting also has higher positive correlation with average review scores, and its statistically signficant!
 So next time you're watching a period piece or a WW2 movie, remember, you're only proving our point :)
+<br>
 
 Finally, we conducted aspect-based sentiment analysis on the movie reviews we scraped using the IMDB ID. How's it different from regular sentiment analysis, you may ask?
+<br>
 
 Aspect-based sentiment analysis is like zooming in on a painting to appreciate the intricate brushstrokes instead of just admiring the whole masterpiece. It's a methodical approach that dissects text into specific elements—characters, themes, or topics—to understand the sentiments associated with each. While standard sentiment analysis offers an overall emotional tone, this approach digs deeper, like unearthing treasures hidden within the words. It's a way to decode the sentiments linked to particular aspects, giving a nuanced understanding and colorful insights into diverse emotions within the text.
+<br>
+<br>
 
 ![aspect](images/aspect.jpeg)
+<br>
+<br>
 
 ![aspect](images/trajectory.png)
+<br>
+<br>
 
 
 
