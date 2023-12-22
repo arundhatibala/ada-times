@@ -144,6 +144,12 @@ Aspect-based sentiment analysis is like zooming in on a painting to appreciate t
 <br>
 <br>
 
+- Mixed: the mixed-label indicates a conflicted/nuanced opinion portrayed in the movie review. It appears most often for plot, originality and cast. Keep in mind that it is quite rare in the dataset.
+- Neutral: this label indicates factual/descriptive language towards the topic. It is the most frequently associated with production.
+- Not discussed: this label indicates that an aspect was not touched upon in the review. We clearly see that soundplay, visuals and production is dominating this sentiment, suggesting that audiences may care less about these aspects.
+- Negative: the negative-label indicates movie critique on the associated aspect. We observe that movies are most frequently critiqued for their plot, lack of originality or dialogue
+- Positive: this label indicates positive emotions towards the associated aspect. This is most often the case for cast and plot.
+
 ![aspect](images/trajectory.png)
 <br>
 <br>
