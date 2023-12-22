@@ -133,6 +133,8 @@ When considering the sentiments of the reviews in our IMDB dataset, we see that 
 So next time you're watching a period piece or a WW2 movie, remember, you're only proving our point :)
 <br>
 
+#### Getting sentimental
+
 Finally, we conducted aspect-based sentiment analysis on the movie reviews we scraped using the IMDB ID. How's it different from regular sentiment analysis, you may ask?
 <br>
 
