@@ -10,7 +10,7 @@ position: center
 
 Acclaimed screenwriter Woody Allen famously said that “If my films don’t show a profit, I know I’m doing something right.” Contrasting the financial success stories of recent Marvel movies, Allen’s perspective prompts a fundamental question: are cultural and commercial successes inherently opposed in the movie industry, or is this merely artistic disillusionment? 
 
-<br><br>
+<br>
 
 ### Understanding our datasets 
 
