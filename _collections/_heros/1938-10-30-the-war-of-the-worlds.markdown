@@ -94,7 +94,9 @@ Movies from Everything Everywhere All at Once (not plotted) to Sister Act have s
 
 A standing ovation at Cannes is a dream of every filmmaker. Audience reception is perhaps one of the most important metrics in determining a movie's success. But are all audiences the same?
 
-In our initial analysis, we compare the 
+![boxplots](images/boxplots.png)
+
+In our initial analysis, we compare the average audience rating with the category of target audience. Our most surprising find? Movies that have elderly people as a target demographic <strong> on average have a higher rating<strong> than other audience demographics!
 
 #### 
 
