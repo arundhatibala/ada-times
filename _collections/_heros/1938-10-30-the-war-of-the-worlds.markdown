@@ -17,7 +17,7 @@ Acclaimed screenwriter Woody Allen famously said that “If my films don’t sho
 For our analysis, we incorporate the following sources:
 1. CMU Movie Corpus dataset with 40 000 plot summaries
 2. IMDb non-commercial dataset + 50.000 scraped movie reviews
-3. Historic awards data from Academy Awards, Golden Globe & BAFTA
+3. Historic awards data from Academy Awards and Golden Globe
 4. Budget and revenue numbers from Box Office Mojo
 5. Audience and critic review scores from Rotten Tomatoes
 
