@@ -150,10 +150,6 @@ Aspect-based sentiment analysis is like zooming in on a painting to appreciate t
 - Negative: the negative-label indicates movie critique on the associated aspect. We observe that movies are most frequently critiqued for their plot, lack of originality or dialogue
 - Positive: this label indicates positive emotions towards the associated aspect. This is most often the case for cast and plot.
 
-![aspect](images/trajectory.png)
-<br>
-<br>
-
 
 
 <!-- ####  -->
