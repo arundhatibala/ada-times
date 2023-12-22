@@ -62,7 +62,10 @@ To understand the commercial success of a movie, we can choose between a variety
 We establish a connection between the dimensions in the data by creating scatter plot. Of these, the two most interesting (in our opinion), are the following graphs.
 
 WGen we compare the budget and revenue, we see that higher investment in the production budget does not necessarily make the movie a commerical success.
-<iframe src="budget_revenue.html" width="2000" height="1000"></iframe>
+
+<div class="container">
+  <iframe class="responsive-iframe" src="budget_revenue.html"></iframe>
+</div>
 
 So, what could be the cause of this? Lately, if we dig deeper into the data, we see that most movies are concentraed in one cell of the graph's grid
 
