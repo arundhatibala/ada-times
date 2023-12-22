@@ -92,6 +92,10 @@ Movies from Everything Everywhere All at Once (not plotted) to Sister Act have s
 
 ### Playing to the Gallery
 
+A standing ovation at Cannes is a dream of every filmmaker. Audience reception is perhaps one of the most important metrics in determining a movie's success. But are all audiences the same?
+
+In our initial analysis, we compare the 
+
 #### 
 
 ### Reaching critical mass
