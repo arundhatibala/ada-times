@@ -71,15 +71,15 @@ When we compare the budget and revenue, we see that higher investment in the pro
 Lighthearted movies are on average lower in budget but have a higher yield at the box office. We also see that that category contains the most expensive budgets.
 
 If we apply a temporal axes, we can see how the budget changes for movies over the years.
-<br>
+<br><br>
 
 <div class="container">
   <iframe class="responsive-iframe" src="year_budget.html"></iframe>
 </div>
-<br>
+<br><br>
 
 We see that the budget stabilises over the years, inspite of inflation and overall increase in production cost and the size of the team working on a single movie.
-<br>
+<br><br>
 
 So, what could be the cause of this? Lately, there has been wave of <strong>microbudgeting</strong>. Producers often fund indie films that don't require as much resources, but have a unique plot characteristic that makes them stand out in the crowd.
 Movies from Everything Everywhere All at Once (not plotted) to Sister Act have shown to investors that it doesn't take much to make a movie that's commercially successful.
@@ -100,7 +100,9 @@ To understand our plot summaries better, we used <code>gpt-3.5-turbo</code> to c
 
 The choice of these features was a careful balance between granularity and dataset size, aiming to capture the most significant elements of movie plots. Analyzing movie plots using ChatGPT 3.5 for feature generation revealed its knack for handling hefty data tasks. We smoothly processed large datasets, extracting valuable features without breaking a sweat. 
 
-<br>
+<br><br>
+
+#### Getting Demo-Graphic
 
 A standing ovation at Cannes is a dream of every filmmaker. Audience reception is perhaps one of the most important metrics in determining a movie's success. But are all audiences the same?
 <br><br>
