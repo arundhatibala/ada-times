@@ -59,15 +59,27 @@ From the unsupervised, hierarchical clustering of the Louvain algorithm, we lear
 ### Time to put your Money where your Mouth is
 
 To understand the commercial success of a movie, we can choose between a variety of metrics, like Return-on-Investment (ROI), Box-Office Revenue and Budget of the movie. However, the best analyses are simple. 
-We establish a connection between the dimensions in the data by creating scatter plot. Of these, the two most interesting (in our opinion), are the following graphs.
 
-WGen we compare the budget and revenue, we see that higher investment in the production budget does not necessarily make the movie a commerical success.
+We establish a connection between the dimensions in the data by creating scatter plot. Of these, the two most interesting (in our opinion), are the following graphs.
 
 <div class="container">
   <iframe class="responsive-iframe" src="budget_revenue.html"></iframe>
 </div>
 
-So, what could be the cause of this? Lately, if we dig deeper into the data, we see that most movies are concentraed in one cell of the graph's grid
+When we compare the budget and revenue, we see that higher investment in the production budget does not necessarily make the movie a commercial success. We see from the graph (and the data) that most movies are concentrated in the 0-50M budget category with a revenue between 0-0.5B.
+
+Lighthearted movies are on average lower in budget but have a higher yield at the box office. We also see that that category contains the most expensive budgets.
+
+If we apply a temporal axes, we can see how the budget changes for movies over the years.
+
+
+<div class="container">
+  <iframe class="responsive-iframe" src="year_budget.html"></iframe>
+</div>
+
+We see that the budget stabilises over the years, inspite of inflation and overall increase in production cost and the size of the team working on a single movie.
+So, what could be the cause of this? Lately, there has been wave of <strong>microbudgeting</strong>. Producers often fund indie films that don't require as much resources, but have a unique plot characteristic that makes them stand out in the crowd.
+Movies from Everything Everywhere All at Once (not plotted) to Sister Act have shown to investors that it doesn't take much to make a movie that's commercially successful.
 
 <iframe src="fig_bubble.html" width="800" height="600"></iframe>
 
