@@ -88,9 +88,11 @@ Movies from Everything Everywhere All at Once (not plotted) to Sister Act have s
   <iframe class="responsive-iframe" src="fig_bubble.html"></iframe>
 </div>
 
-#### Plot Characteristics
+<!-- #### Plot Characteristics -->
 
 ### Playing to the Gallery
+
+To understand our plot summaries better, we used <code>gpt-3.5-turbo</code> to categorise the plot summaries into new metrics like mood and target demographic. After feeding in the plot summary, we asked the LLM which age group this movie would be most suited to and 
 
 A standing ovation at Cannes is a dream of every filmmaker. Audience reception is perhaps one of the most important metrics in determining a movie's success. But are all audiences the same?
 
@@ -100,7 +102,14 @@ In our initial analysis, we compare the average audience rating with the categor
 
 ![correlation](images/correlation.jpeg)
 
-When considering the sentiments of the reviews in our IMDB dataset, we see that movies with a historical or past setting also has higher positive correlation with average review scores.
+When considering the sentiments of the reviews in our IMDB dataset, we see that movies with a historical or past setting also has higher positive correlation with average review scores, and its statistically signficant!
+So next time you're watching a period piece or a WW2 movie, remember, you're only proving our point :)
+
+Finally, we conducted aspect-based sentiment analysis on the movie reviews we scraped using the IMDB ID. How's it different from regular sentiment analysis, you may ask?
+
+Aspect-based sentiment analysis is like zooming in on a painting to appreciate the intricate brushstrokes instead of just admiring the whole masterpiece. It's a methodical approach that dissects text into specific elements—characters, themes, or topics—to understand the sentiments associated with each. While standard sentiment analysis offers an overall emotional tone, this approach digs deeper, like unearthing treasures hidden within the words. It's a way to decode the sentiments linked to particular aspects, giving a nuanced understanding and colorful insights into diverse emotions within the text.
+
+![aspect](images/aspect.jpeg)
 
 
 <!-- ####  -->
