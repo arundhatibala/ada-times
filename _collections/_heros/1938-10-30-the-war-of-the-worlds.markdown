@@ -8,7 +8,7 @@ image_caption: Through a meticulous analysis of over 40,000 plot summaries using
 position: center
 ---
 
-Acclaimed screenwriter Woody Allen famously said that “If my films don’t show a profit, I know I’m doing something right.” Contrasting the financial success stories of recent Marvel movies, Allen’s perspective prompts a fundamental question: are cultural and commercial successes inherently opposed in the movie industry, or is this merely artistic disillusionment? 
+Acclaimed screenwriter Woody Allen famously said that “If my films don’t show a profit, I know I’m doing something right.” Contrasting the financial success stories of recent Marvel movies, Allen’s perspective prompts a fundamental question: are cultural and commercial successes inherently different from critical acclaim, or are there more overlaps than one might anticipate? In short - what makes a successful film, succesful?
 
 <br>
 
@@ -199,4 +199,4 @@ To dive deeper into critical acclaim, it can be seen that movies with historical
   <iframe class="responsive-iframe" src="final_map_revenue.html"></iframe>
 </div>
 <br><br> -->
-In conclusion, we see that a film's performance can, in fact, be optimised to be at the box office level. Using 
+In conclusion, we see that a film's performance can, in fact, be optimised to be at the box office level.
