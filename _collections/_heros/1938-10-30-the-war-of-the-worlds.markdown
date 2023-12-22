@@ -39,32 +39,40 @@ Ultimately, we believe this multivariate approach could empower industry stakeho
 <br><br>
 
 ### Introducing Communities
+<br><br>
 
 Community detection in network analysis involves identifying groups of nodes or entities within a network that are more densely connected to each other than to the rest of the network. To explore genre-genre-associations, we constructed an undirected, weighted network with unique CMU movie genres as nodes. Each edge signifies that the two nodes (genres) are appearing together at least once in the dataset, and their weights were obtained by counting the total number of pair-occurrences in the dataset.
+<br><br>
 
 ![Network Communities](images/network.png)
+<br><br>
 
 
 A popular choice for community detection, the <strong>Louvain algorithm</strong>, is based on the idea of optimizing modularity. Modularity quantifies the quality of a community structure by comparing the number of edges within communities to the expected number of edges if the network were randomly connected. The algorithm aims to maximize modularity score, indicating a strong community structure. An advantage of the algorithm is that it finds appropriate non-overlapping communities without having to specify the number of communities in advance. 
+<br><br>
 
 ![Communities](images/communities.png)
+<br><br>
 
 For our network, the algorithm detected five communities. But how does one interpret community 0 to 4?
 
 From the unsupervised, hierarchical clustering of the Louvain algorithm, we learnt a genre-community mapping without having to specify any hyperparameters. To interpret and label the communities, we observe the top 10 genres within each community (ranked on occurrence-count in the dataset). 
+<br><br>
 
 ![Genres](images/genres.png)
 <br><br>
 
 ### Put your Money where your Mouth is
-
+<br><br>
 To understand the commercial success of a movie, we can choose between a variety of metrics, like Return-on-Investment (ROI), Box-Office Revenue and Budget of the movie. However, the best analyses are simple. 
 
 We establish a connection between the dimensions in the data by creating scatter plot. Of these, the two most interesting (in our opinion), are the following graphs.
+<br><br>
 
 <div class="container">
   <iframe class="responsive-iframe" src="budget_revenue.html"></iframe>
 </div>
+<br><br>
 
 When we compare the budget and revenue, we see that higher investment in the production budget does not necessarily make the movie a commercial success. We see from the graph (and the data) that most movies are concentrated in the 0-50M budget category with a revenue between 0-0.5B.
 
@@ -88,6 +96,7 @@ Movies from Everything Everywhere All at Once (not plotted) to Sister Act have s
 <br><br>
 
 ### Playing to the Gallery
+<br><br>
 
 To understand our plot summaries better, we used <code>gpt-3.5-turbo</code> to categorise the plot summaries into new metrics, which include:
 <br>
@@ -101,7 +110,7 @@ To understand our plot summaries better, we used <code>gpt-3.5-turbo</code> to c
 
 The choice of these features was a careful balance between granularity and dataset size, aiming to capture the most significant elements of movie plots. Analyzing movie plots using ChatGPT 3.5 for feature generation revealed its knack for handling hefty data tasks. We smoothly processed large datasets, extracting valuable features without breaking a sweat. 
 
-<br><br>
+<br>
 
 #### Getting Demo-Graphic
 
