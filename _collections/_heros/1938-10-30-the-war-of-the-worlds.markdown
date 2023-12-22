@@ -192,10 +192,11 @@ After 1990, there's a clear rise in the number of movies reviewed, with a greate
 <br><br>
 
 To dive deeper into critical acclaim, it can be seen that movies with historical themes score highest among films released after the 1990s, likely due to their rich storytelling and production quality. This is similar to what we see in the audience recognition section as well. In contrast, horror films tend to have lower scores, possibly reflecting a tougher critic stance or the genre's niche appeal.
-
-### Locations and Our Metrics
-
+<br><br>
+<!-- ### Locations and Our Metrics
+<br><br>
 <div class="container">
   <iframe class="responsive-iframe" src="final_map_revenue.html"></iframe>
 </div>
-<br><br>
+<br><br> -->
+In conclusion, we see that a film's performance can, in fact, be optimised to be at the box office level. Using 
